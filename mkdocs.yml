@@ -1,0 +1,34 @@
+# Project information
+site_name: kzrashi's Home
+site_url: https://kzrashi.github.io
+site_author: kzrashi
+site_description: >-
+  This site is home page of kzrashi.
+
+
+# Copyright
+copyright: "Copyright © 2021 -  kzrashi All Rights Reserved."
+
+# Configuration
+theme:
+  name: material
+  language: ja
+  # 左上のアイコン
+  logo: assets/animal_chara_computer_azarashi.png
+
+  # ファビコン
+  favicon: assets/animal_chara_computer_azarashi.png
+
+# Plugins
+# plugins:
+
+# Customization
+# extra:
+
+# Extensions
+markdown_extensions:
+  - meta
+
+hide:
+  - navigation
+  - toc
