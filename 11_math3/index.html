@@ -287,6 +287,20 @@
       
         <li class="md-nav__item">
   <a href="#2_1" class="md-nav__link">
+    2. 合成関数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    2. 逆関数の導関数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_3" class="md-nav__link">
     2. 三角関数の導関数
   </a>
   
@@ -355,6 +369,20 @@
       
         <li class="md-nav__item">
   <a href="#2_1" class="md-nav__link">
+    2. 合成関数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    2. 逆関数の導関数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_3" class="md-nav__link">
     2. 三角関数の導関数
   </a>
   
@@ -419,9 +447,7 @@ y' = 2 \times (3x) + (2x)\times 3
 <div class="arithmatex">\[
 \{\frac{1}{g(x)}\}' = \frac{f'(x)g(x) - f(x)g'(x)}{\{g(x)^{2}\}}
 \]</div>
-<ul>
-<li>合成関数  </li>
-</ul>
+<h2 id="2_1">2. 合成関数<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h2>
 <div class="arithmatex">\[
 \{\frac{f(x)}{g(x)}\}' = \frac{f'(x)g(x) - f(x)g'(x)}{\{g(x)^{2}\}}
 \]</div>
@@ -432,15 +458,54 @@ $$
 $$
 y'=((x^{3})^{2})' \times (x^{3})' = 2(x^{3}) \times (3x^{2})
 $$</p>
-<h2 id="2_1">2. 三角関数の導関数<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h2>
+<h2 id="2_2">2. 逆関数の導関数<a class="headerlink" href="#2_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>公式
+$$
+(x^{r})' = rx^{r-1} 
+$$</p>
+</li>
+<li>
+<p>例
+$$
+y = \sqrt[5]{x^{2}}
+$$</p>
+</li>
+</ul>
 <div class="arithmatex">\[
+y' = x^{\frac{2}{5} - 1} = \frac{2}{5} \times x^{- \frac{3}{5}} = \frac{2}{5 \sqrt[5]{x^{3}}}
+\]</div>
+<h2 id="2_3">2. 三角関数の導関数<a class="headerlink" href="#2_3" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>sinの微分
+$$
 (\sin{x})' = \cos{x}
-\]</div>
-<div class="arithmatex">\[
+$$</p>
+</li>
+<li>
+<p>cosの微分
+$$
 (\cos{x})' = -\sin{x}
+$$</p>
+</li>
+<li>
+<p>tanの微分
+$$
+(\tan{x})' = \frac{1}{\cos{x}^{2}}
+$$</p>
+</li>
+<li>
+<p>ex)
+合成関数の公式と三角関数の公式を組み合わせる</p>
+</li>
+</ul>
+<div class="arithmatex">\[
+y = \sin^{2}{x}
 \]</div>
 <div class="arithmatex">\[
-(\tan{x})' = \frac{1}{\cos{x}^{2}}
+y' = (\sin{x})^{2} = 2 \times (\sin{x}) \times (\sin{x})'= 2 \times (\sin{x}) \times (\cos{x})= 2\sin{x}\cos{x}
 \]</div>
 
 
