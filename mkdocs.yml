@@ -37,8 +37,8 @@ theme:
     # - toc.integrate
 
 # Plugins
-plugins:
-  - git-revision-date-localized
+# plugins:
+#   - git-revision-date-localized
 
 #    - search:
 #
