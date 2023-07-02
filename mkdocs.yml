@@ -5,9 +5,16 @@ site_author: kzrashi
 site_description: >-
   This site is home page of kzrashi.
 
+# Repository
+## GitのURL
+repo_url: https://github.com/kzrashi/kzrashi.github.io
+## 表示文字列
+repo_name: kzrashi/kzrashi.github.io
+
 
 # Copyright
 copyright: "Copyright © 2021 -  kzrashi All Rights Reserved."
+
 
 # Configuration
 theme:
@@ -15,20 +22,77 @@ theme:
   language: ja
   # 左上のアイコン
   logo: assets/animal_chara_computer_azarashi.png
+  icon:
+    # Gitリポジトリエリアのアイコン
+    repo: fontawesome/brands/github    # icon:
+    #   logo: assets/python_94570.svg
+  #        repo: fontawesome/brands/git-alt
 
   # ファビコン
   favicon: assets/animal_chara_computer_azarashi.png
+  # タブ表示を有効.
+  features:
+    - tabs
+    # 今テンスをナビゲーションに含める
+    # - toc.integrate
 
 # Plugins
-# plugins:
+plugins:
+  - git-revision-date-localized
+
+#    - search:
+#
+#      language: 'en, ja'
+# 検索インデックスの単語区切り文字設定
+#        separator: '[\s\-\.]+'
 
 # Customization
-# extra:
+extra:
+  generator: false
 
 # Extensions
 markdown_extensions:
-  - meta
+  # アラート修飾の設定
+  - admonition
+  # コンテンツ内タブ機能
+  - pymdownx.tabbed
+  # スーパーフェンス機能の設定
+  - pymdownx.superfences
+  # コンテンツの折りたたみ設定
+  - pymdownx.details
 
-hide:
-  - navigation
-  - toc
+  - pymdownx.critic
+  ## ハイライト指定
+  - pymdownx.mark
+
+  # - pymdownx.critic.mode: view
+
+  # - pymdownx.betterem:
+  #   smart_enable: all
+
+  # - pymdownx.caret
+  # - pymdownx.tilde
+  # - pymdownx.smartsymbols
+  
+  
+  
+
+
+  - codehilite:
+      #        linenums: true
+      guess_lang: false
+      use_pygments: false
+      noclasses: true
+  - toc:
+      permalink: true
+#    - fontawesome_markdown
+
+# CSS
+extra_css:
+  - "css/custom.css"
+
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto
