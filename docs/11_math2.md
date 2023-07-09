@@ -1,23 +1,46 @@
 # 数学Ⅱ
-- [1. 円の方程式](#1-円の方程式)
-- [2. 三角関数](#2-三角関数)
-  - [2.1. 加法定理](#21-加法定理)
-    - [2.1.1. 正弦(sin)・余弦(cos)の加法定理](#211-正弦sin余弦cosの加法定理)
-    - [2.1.2. 正接(tan)の加法定理](#212-正接tanの加法定理)
-  - [2.2. 倍角・半角](#22-倍角半角)
-    - [2.2.1. ２倍角の公式](#221-２倍角の公式)
 
 
-## 1. 円の方程式
+## 1. 三角関数
+### 1.1. 基本
+
+- 単位円(半径rの)
+
+$$
+\sin{\theta} = \frac{y}{r}
+$$
+
+$$
+\cos{\theta} = \frac{x}{r}
+$$
+
+$$
+\tan{\theta} = \frac{x}{y}
+$$
+
+- 変換
+
+$$
+\sin^{2}{\theta} + \cos^{2}{\theta} = 1
+$$
+
+$$
+\tan{\theta} = \frac{sin{\theta}}{sin{\theta}}
+$$
+
+$$
+\tan^{2}{\theta} + 1 = \frac{1}{cos^{2}{\theta}}
+$$
+
+
+### 1.2. 円の方程式
 $$
 x^{2} + y^{2} = r^{2}
 $$
 
+### 1.3. 加法定理
 
-## 2. 三角関数
-### 2.1. 加法定理
-
-#### 2.1.1. 正弦(sin)・余弦(cos)の加法定理
+#### 1.3.1. 正弦(sin)・余弦(cos)の加法定理
 
 $$
 \sin(\alpha + \beta) = \sin{\alpha} \cdot \cos{\beta} + \cos{\alpha} \cdot \sin{\beta}
@@ -35,7 +58,7 @@ $$
 \cos(\alpha - \beta) = \cos{\alpha} \cdot \cos{\beta} + \sin{\alpha} \cdot \sin{\beta}
 $$
 
-#### 2.1.2. 正接(tan)の加法定理
+#### 1.3.2. 正接(tan)の加法定理
 
 $$
 \tan(\alpha + \beta) = \frac{\tan{\alpha} + \tan{\beta}}{1 - \tan{\alpha} \cdot \tan{\beta} }
@@ -45,9 +68,9 @@ $$
 \tan(\alpha - \beta) = \frac{\tan{\alpha} - \tan{\beta}}{1 + \tan{\alpha} \cdot \tan{\beta} }
 $$
 
-### 2.2. 倍角・半角
+### 1.4. 倍角・半角
 
-#### 2.2.1. ２倍角の公式
+#### 1.4.1. ２倍角の公式
 
 
 - sin2θの公式
