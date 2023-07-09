@@ -50,6 +50,7 @@ $$
 #### 2.2.1. ２倍角の公式
 
 
+- sin2θの公式
 
 $$
 \sin{2\alpha} = 2 \cdot \sin{\alpha} \cdot \cos{\alpha}
@@ -59,6 +60,19 @@ $$
 \sin(\alpha + \alpha) = \sin{\alpha} \cdot \cos{\alpha} + \cos{\alpha} \cdot \sin{\alpha}
 $$
 
+- cos2θの公式
+
+$$
+\cos{2\alpha} = \cos^2{\alpha}  - \sin^2{\alpha}
+$$
+
+$$
+\cos{2\alpha} = \cos^2{\alpha}  - (1 - \cos^{2}{\alpha}) = 2 \cos^{2}{\alpha} -1
+$$
+
+$$
+\cos{2\alpha} = (1 - \sin^{2}{\alpha}) - \sin^2{\alpha} = 1 - 2 \sin^{2}{\alpha}
+$$
 
 $$
 \cos{2\alpha} = \cos^2{\alpha}  - \sin^2{\alpha}
