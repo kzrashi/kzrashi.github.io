@@ -105,8 +105,8 @@ $$
 \cos(\alpha + \alpha) = \cos{\alpha} \cdot \cos{\alpha} - \sin{\alpha} \cdot \sin{\alpha}
 $$
 
-## 2. 指数
-
+## 2. 指数・対数
+### 2.1. 指数
 - 公式1
 
 $$
@@ -151,16 +151,76 @@ $$
 (ab)^{n} = a^{n} \times b^{n}
 $$
 
-- $ 2^{x} $のグラフ
+- グラフ
 
 $$
-2^{x}
+y = 2^{x}
 $$
 
 ![](assets_math/math2_001.png)
 
 $$
-(\frac{1}{2})^{x}
+y = (\frac{1}{2})^{x}
 $$
 
 ![](assets_math/math2_002.png)
+
+### 2.2. 対数
+#### 2.2.1. 基本
+- 公式1
+
+$$
+\log_{a}{a^{p}} = p
+$$
+
+- 公式2
+
+$$
+\log_{a}{a^{1}} = 1
+$$
+
+- 公式3
+
+$$
+\log_{a}{1} = 0
+$$
+
+#### 2.2.2. 基本２
+
+$$
+\log_{a}{M} + \log_{a}{N} = \log_{a}{M \times N} 
+$$
+
+
+$$ 
+\log_{a}{M} - \log_{a}{N} = \log_{a}{\frac{M}{N}} 
+$$
+
+- 重要！！！
+
+$$
+\log_{a}{B}  = \frac{ \log_{c}{B}}{ \log_{c}{a}} 
+$$
+
+$$
+\log_{a}{B}  = \frac{ \log_{B}{B}}{ \log_{B}{a}} =  \frac{1}{ \log_{B}{a}}
+$$
+
+$$
+\log_{a}{B}  = \frac{ \log_{a}{B}}{ \log_{a}{a}} =  \frac{\log_{a}{B}}{ 1}
+$$
+
+
+- グラフ
+
+$$
+y = \log_{2}{x}
+$$
+
+![](assets_math/math2_003.png)
+
+$$
+y = \log_{\frac{1}{2}}{x}
+$$
+
+![](assets_math/math2_004.png)
