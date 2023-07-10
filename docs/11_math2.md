@@ -104,3 +104,63 @@ $$
 $$
 \cos(\alpha + \alpha) = \cos{\alpha} \cdot \cos{\alpha} - \sin{\alpha} \cdot \sin{\alpha}
 $$
+
+## 2. 指数
+
+- 公式1
+
+$$
+\sqrt[n]{a^{n}} = (\sqrt[n]{a})^{n} = a
+$$
+
+- 公式2
+
+$$
+\sqrt[n]{a^{n}} = = a^{\frac{1}{n}}
+$$
+
+- 公式3
+
+$$
+\frac{1}{a^{n}} = a^{-n} = (\frac{1}{a})^{n}
+$$
+
+- 公式4
+
+$$
+a^{r} \times a^{n} = a^{r + n}
+$$
+
+- 公式5
+
+$$
+a^{r} \div a^{n} = a^{r - n}
+$$
+
+- 公式5
+指数の入れ替えが出来る
+
+$$
+(a^{r})^{n} = a^{r \times n} = (a^{n})^{r}
+$$
+
+- 公式6
+指数の入れ替えが出来る
+
+$$
+(ab)^{n} = a^{n} \times b^{n}
+$$
+
+- $ 2^{x} $のグラフ
+
+$$
+2^{x}
+$$
+
+![](assets_math/math2_001.png)
+
+$$
+(\frac{1}{2})^{x}
+$$
+
+![](assets_math/math2_002.png)
