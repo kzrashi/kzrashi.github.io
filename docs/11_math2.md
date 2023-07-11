@@ -18,6 +18,11 @@ $$
 \tan{\theta} = \frac{x}{y}
 $$
 
+$$
+\cot{\theta} = \frac{y}{x}
+$$
+
+
 - 変換
 
 $$
@@ -26,6 +31,10 @@ $$
 
 $$
 \tan{\theta} = \frac{sin{\theta}}{sin{\theta}}
+$$
+
+$$
+\cot{\theta} = \frac{cos{\theta}}{sin{\theta}}
 $$
 
 $$

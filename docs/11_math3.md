@@ -264,6 +264,30 @@ $$
 \int e^{x}dx = e^{x} + C
 $$
 
+
 $$
 \int a^{x}dx = \frac{a^{x}}{log{a}} + C
+$$
+
+### 4.3. 三角関数の不定積分
+
+$$
+\sin{x} \cos{x} = \frac{sin2x}{1}
+$$
+
+$$
+\sin^{2}{x} = \frac{1 - cos2x}{2}
+$$
+
+$$
+\cos^{2}{x} = \frac{1 + cos2x}{2}
+$$
+
+
+$$
+\sin{\alpha} \cos{\beta} = \frac{1}{2}(\sin{\alpha + \beta} + \sin{\alpha - \beta})
+$$
+
+$$
+\cos{\alpha} \sin{\beta} = \frac{1}{2}(\sin{\alpha + \beta} - \sin{\alpha - \beta})
 $$
