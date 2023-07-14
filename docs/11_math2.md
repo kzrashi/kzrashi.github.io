@@ -1,8 +1,36 @@
 # 数学Ⅱ
 
+## 1. 点と線
+### 1.1. 内分と外分
+- aとbをm:nに内分する点
 
-## 1. 三角関数
-### 1.1. 基本
+$$
+\frac{n \times a + m \times b}{m+n}
+$$
+
+- aとbをm:nに**外分**する点
+
+$$
+\frac{- n \times a + m \times b}{m - n}
+$$
+
+### 1.2. ２点間の距離
+- (x1,y1), (x2, y2)の距離
+※三平方の定理を使う
+
+$$
+AB = \sqrt{(x2-x1)^2 + (y2-y1)^2}
+$$
+
+- 内分点
+
+$$
+(\frac{n \times x1 + m \times x2}{m+n}), (\frac{n \times y1 + m \times y2}{m+n})
+$$
+
+
+## 2. 三角関数
+### 2.1. 基本
 
 - 単位円(半径rの)
 
@@ -42,14 +70,14 @@ $$
 $$
 
 
-### 1.2. 円の方程式
+### 2.2. 円の方程式
 $$
 x^{2} + y^{2} = r^{2}
 $$
 
-### 1.3. 加法定理
+### 2.3. 加法定理
 
-#### 1.3.1. 正弦(sin)・余弦(cos)の加法定理
+#### 2.3.1. 正弦(sin)・余弦(cos)の加法定理
 
 $$
 \sin(\alpha + \beta) = \sin{\alpha} \cdot \cos{\beta} + \cos{\alpha} \cdot \sin{\beta}
@@ -67,7 +95,7 @@ $$
 \cos(\alpha - \beta) = \cos{\alpha} \cdot \cos{\beta} + \sin{\alpha} \cdot \sin{\beta}
 $$
 
-#### 1.3.2. 正接(tan)の加法定理
+#### 2.3.2. 正接(tan)の加法定理
 
 $$
 \tan(\alpha + \beta) = \frac{\tan{\alpha} + \tan{\beta}}{1 - \tan{\alpha} \cdot \tan{\beta} }
@@ -77,9 +105,9 @@ $$
 \tan(\alpha - \beta) = \frac{\tan{\alpha} - \tan{\beta}}{1 + \tan{\alpha} \cdot \tan{\beta} }
 $$
 
-### 1.4. 倍角・半角
+### 2.4. 倍角・半角
 
-#### 1.4.1. ２倍角の公式
+#### 2.4.1. ２倍角の公式
 
 
 - sin2θの公式
@@ -114,8 +142,8 @@ $$
 \cos(\alpha + \alpha) = \cos{\alpha} \cdot \cos{\alpha} - \sin{\alpha} \cdot \sin{\alpha}
 $$
 
-## 2. 指数・対数
-### 2.1. 指数
+## 3. 指数・対数
+### 3.1. 指数
 - 公式1
 
 $$
@@ -174,8 +202,8 @@ $$
 
 ![](assets_math/math2_002.png)
 
-### 2.2. 対数
-#### 2.2.1. 基本
+### 3.2. 対数
+#### 3.2.1. 基本
 - 公式1
 
 $$
@@ -194,7 +222,7 @@ $$
 \log_{a}{1} = 0
 $$
 
-#### 2.2.2. 基本２
+#### 3.2.2. 基本２
 
 $$
 \log_{a}{M} + \log_{a}{N} = \log_{a}{M \times N} 
