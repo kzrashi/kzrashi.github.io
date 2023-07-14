@@ -28,6 +28,44 @@ $$
 (\frac{n \times x1 + m \times x2}{m+n}), (\frac{n \times y1 + m \times y2}{m+n})
 $$
 
+- 外分点
+
+$$
+(\frac{-n \times x1 + m \times x2}{m-n}), (\frac{-n \times y1 + m \times y2}{m-n})
+$$
+
+### 1.3. 三角形の重心
+- A(x1,y1), B(x2, y2), C(x3, y3)の重心
+
+1. BとCの中点M(1:1に内分する座標)を求める
+
+$$
+(\frac{1 \times x2 + 1 \times x3}{1+1}), (\frac{1 \times y2 + 1 \times y3}{1+1})
+$$
+
+↓
+
+$$
+(\frac{x2 + x3}{2}), (\frac{y2 + y3}{2})
+$$
+
+2. AとMを2:1に内分する点（重心）を求める
+
+$$
+(\frac{1 \times x1 + 2 \times \frac{x2 + x3}{2}}{2+1})
+$$
+
+3. 2を計算した結果
+$$
+(\frac{x1 + x2 + x3}{3}), (\frac{y1 + y2 + y3}{3})
+$$
+
+### 1.4. 点と直線の方式
+P(x1,y1)と直線(ax + by + c =0)の距離dは
+
+$$
+d = \frac{|a \times x1 + b \times y1 + c|}{\sqrt{a^2 + b^2}}
+$$
 
 ## 2. 三角関数
 ### 2.1. 基本
