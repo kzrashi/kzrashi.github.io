@@ -68,8 +68,28 @@ $$
 d = \frac{|a \times x1 + b \times y1 + c|}{\sqrt{a^2 + b^2}}
 $$
 
-## 2. 三角関数
-### 2.1. 基本
+## 2. 円の方程式
+
+- 点(a,b)を中心とする半径が r の円の方程式は
+
+$$
+(x^{2} - a) + (y^{2} - b) = r^{2}
+$$
+
+
+$$
+x^{2} + y^{2} = r^{2}
+$$
+
+- 円 x2 + y2 = r 2 上の点(x1 ,y1)における接線の方程式は
+
+$$
+x \times x1 + y \times  y1 = r^2
+$$
+
+
+## 3. 三角関数
+### 3.1. 基本
 
 - 単位円(半径rの)
 
@@ -109,14 +129,10 @@ $$
 $$
 
 
-### 2.2. 円の方程式
-$$
-x^{2} + y^{2} = r^{2}
-$$
 
-### 2.3. 加法定理
+### 3.2. 加法定理
 
-#### 2.3.1. 正弦(sin)・余弦(cos)の加法定理
+#### 3.2.1. 正弦(sin)・余弦(cos)の加法定理
 
 $$
 \sin(\alpha + \beta) = \sin{\alpha} \cdot \cos{\beta} + \cos{\alpha} \cdot \sin{\beta}
@@ -134,7 +150,7 @@ $$
 \cos(\alpha - \beta) = \cos{\alpha} \cdot \cos{\beta} + \sin{\alpha} \cdot \sin{\beta}
 $$
 
-#### 2.3.2. 正接(tan)の加法定理
+#### 3.2.2. 正接(tan)の加法定理
 
 $$
 \tan(\alpha + \beta) = \frac{\tan{\alpha} + \tan{\beta}}{1 - \tan{\alpha} \cdot \tan{\beta} }
@@ -144,9 +160,9 @@ $$
 \tan(\alpha - \beta) = \frac{\tan{\alpha} - \tan{\beta}}{1 + \tan{\alpha} \cdot \tan{\beta} }
 $$
 
-### 2.4. 倍角・半角
+### 3.3. 倍角・半角
 
-#### 2.4.1. ２倍角の公式
+#### 3.3.1. ２倍角の公式
 
 
 - sin2θの公式
@@ -181,8 +197,8 @@ $$
 \cos(\alpha + \alpha) = \cos{\alpha} \cdot \cos{\alpha} - \sin{\alpha} \cdot \sin{\alpha}
 $$
 
-## 3. 指数・対数
-### 3.1. 指数
+## 4. 指数・対数
+### 4.1. 指数
 - 公式1
 
 $$
@@ -241,8 +257,8 @@ $$
 
 ![](assets_math/math2_002.png)
 
-### 3.2. 対数
-#### 3.2.1. 基本
+### 4.2. 対数
+#### 4.2.1. 基本
 - 公式1
 
 $$
@@ -261,7 +277,7 @@ $$
 \log_{a}{1} = 0
 $$
 
-#### 3.2.2. 基本２
+#### 4.2.2. 基本２
 
 $$
 \log_{a}{M} + \log_{a}{N} = \log_{a}{M \times N} 
