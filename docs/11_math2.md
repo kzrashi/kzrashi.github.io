@@ -91,7 +91,7 @@ $$
 ## 3. 三角関数
 ### 3.1. 基本
 
-- 単位円(半径rの)
+- 単位円
 
 $$
 \sin{\theta} = \frac{y}{r}
@@ -116,8 +116,10 @@ $$
 \sin^{2}{\theta} + \cos^{2}{\theta} = 1
 $$
 
+
+
 $$
-\tan{\theta} = \frac{sin{\theta}}{sin{\theta}}
+\tan{\theta} = \frac{sin{\theta}}{cos{\theta}}
 $$
 
 $$
@@ -128,6 +130,37 @@ $$
 \tan^{2}{\theta} + 1 = \frac{1}{cos^{2}{\theta}}
 $$
 
+
+- sinはy座標なので、x軸を挟んで符号が変わる
+
+$$
+\sin{(- \theta)} = -sin{\theta}
+$$
+
+- cosはy座標なので、x軸に対象
+
+$$
+\cos{(- \theta)} = cos{\theta}
+$$
+
+
+$$
+\sin{(\theta + \frac{\pi}{2})} = cos{\theta}
+$$
+
+$$
+\cos{(\theta + \frac{\pi}{2})} = -sin{\theta}
+$$
+
+- π移動する(三角関数の波を180度進めるイメージで考える)
+
+$$
+\sin{(\theta + \pi)} = -sin{\theta}
+$$
+
+$$
+\cos{(\theta + \pi)} = -cos{\theta}
+$$
 
 
 ### 3.2. 加法定理
