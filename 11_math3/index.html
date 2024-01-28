@@ -448,6 +448,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#45_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5. 回転体の体積
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -664,6 +673,15 @@
   <a href="#45" class="md-nav__link">
     <span class="md-ellipsis">
       4.5. 三角関数の不定積分
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5. 回転体の体積
     </span>
   </a>
   
@@ -941,6 +959,42 @@ y' = (e^{-x^{2}})' = e^{-x^{2}} \times (-x^{2})' = -2xe^{-x^{2}}
 <div class="arithmatex">\[
 \cos{\alpha} \sin{\beta} = \frac{1}{2}(\sin{\alpha + \beta} - \sin{\alpha - \beta})
 \]</div>
+<h3 id="45_1">4.5. 回転体の体積<a class="headerlink" href="#45_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>平面の体積を求めて、積分すると体積が求まる</li>
+</ul>
+<div class="arithmatex">\[
+V=\int^b_aS(x)dx
+\]</div>
+<p>-ex(半径3,高さ5の円錐の体積)</p>
+<ol>
+<li>
+<p>中学の辺と面積の相似比
+$$
+     x:y = x^2 : y^2
+$$</p>
+</li>
+<li>
+<p>今回の問題に当てはめると、高さの比を相似で使う
+$$
+S(x):S(5) = x^2 : 5^2
+$$
+↓
+$$
+S(x): \pi (3)^2 = x^2 : 5^2
+$$
+↓
+$$
+S(x) = \frac{9 \pi x^2}{25}
+$$</p>
+</li>
+<li>
+<p>面積を積分すると
+$$
+V = \int^5_0 (\frac{9 \pi x^2}{25}) dx
+$$</p>
+</li>
+</ol>
 
 
 
