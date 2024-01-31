@@ -154,6 +154,20 @@ y = \sin^{2}{x}
 $$
 
 $$
+u = \sin{x} ,   y = (u)^2
+$$
+
+$$
+\frac{dy}{dx} = \frac{dy}{du} \times \frac{du}{dx} = (u^2)' \times (\sin{x})' = 2u \times \cos{x} = 2(sin{x}) \times \cos{x} = 2\sin{x}\cos{x}
+$$
+
+$$
+
+
+$$
+
+$$
+\frac{dy}{dx} = \frac{dy}{du} \times \frac{du}{dx} =
 y' = (\sin{x})^{2} = 2 \times (\sin{x}) \times (\sin{x})'= 2 \times (\sin{x}) \times (\cos{x})= 2\sin{x}\cos{x}
 $$
 
