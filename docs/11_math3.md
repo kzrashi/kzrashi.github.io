@@ -161,23 +161,6 @@ $$
 \frac{dy}{dx} = \frac{dy}{du} \times \frac{du}{dx} = (u^2)' \times (\sin{x})' = 2u \times \cos{x} = 2(sin{x}) \times \cos{x} = 2\sin{x}\cos{x}
 $$
 
-$$
-
-
-$$
-
-$$
-\frac{dy}{dx} = \frac{dy}{du} \times \frac{du}{dx} =
-y' = (\sin{x})^{2} = 2 \times (\sin{x}) \times (\sin{x})'= 2 \times (\sin{x}) \times (\cos{x})= 2\sin{x}\cos{x}
-$$
-
-$$
-y' = (\sin{x})^{2} = \\
-2 \times (\sin{x}) \times (\sin{x})'= \\
-2 \times (\sin{x}) \times (\cos{x}) = \\
-2\sin{x}\cos{x}
-$$
-
 ### 3.5. 対数関数の導関数
 
 - 底が e の場合
