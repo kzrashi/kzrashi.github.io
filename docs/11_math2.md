@@ -230,6 +230,28 @@ $$
 \cos(\alpha + \alpha) = \cos{\alpha} \cdot \cos{\alpha} - \sin{\alpha} \cdot \sin{\alpha}
 $$
 
+#### 3.3.2. 半角の公式
+
+- sinθの半角
+
+$$
+\sin^2{\frac{\theta}{2}} = \frac{1 - \cos{\theta}}{2}
+$$
+
+- cosθの半角
+
+$$
+\cos^2{\frac{\theta}{2}} = \frac{1 + \cos{\theta}}{2}
+$$
+
+- tanθの半角
+
+
+$$
+\tan^2{\frac{\theta}{2}} = \frac{1 - \cos{\theta}}{1 + \cos{\theta}}
+$$
+
+
 ## 4. 指数・対数
 ### 4.1. 指数
 - 公式1
