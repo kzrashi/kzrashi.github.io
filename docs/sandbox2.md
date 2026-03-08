@@ -1,15 +1,29 @@
 ## NXP ソフトリンク
+
 - NotebookLM登録おすすめURL（優先度順・ソフトウェア理解に特化）i.MX Linux User's Guide（最重要：全体のソフトウェアアーキテクチャとBSP構築のバイブル）  
 https://www.nxp.com/docs/en/user-guide/UG10163.pdf  
 → BSPのビルド手順、ブートフロー（U-Boot → Kernel → Rootfs）、デバイスツリー、フラッシュ方法、特殊機能（GPU/NPU統合含む）の詳細が178ページにわたって網羅。まずこれを入れて「i.MX 95のLinux BSP構成を説明して」と聞くと全体像がつかめます。
 
-- i.MX Yocto Project User's Guide（Yoctoビルドの核心）  
-https://www.nxp.com/docs/en/user-guide/UG10164.pdf    
-→ Yoctoを使ったBSPイメージビルド手順、レイヤー構成（meta-imxなど）、imx95-19x19-lpddr5-evk向けのMACHINE設定、追加パッケージ（eIQ含む）のカスタマイズ方法を詳述。i.MX 95のBSPは完全にYocto依存なので必須。  
+  - i.MX Yocto Project User's Guide（Yoctoビルドの核心）  
+  https://www.nxp.com/docs/en/user-guide/UG10164.pdf    
+  → Yoctoを使ったBSPイメージビルド手順、レイヤー構成（meta-imxなど）、imx95-19x19-lpddr5-evk向けのMACHINE設定、追加パッケージ（eIQ含む）のカスタマイズ方法を詳述。i.MX 95のBSPは完全にYocto依存なので必須。  
 
-- i.MX Machine Learning User's Guide（eIQ Neutron NPUのソフトウェアスタック理解に最適）  
-https://www.nxp.com/docs/en/user-guide/UG10166.pdf  
-→ TensorFlow Lite / ONNX Runtime / PyTorch / OpenCVの統合、Neutron Delegateの使い方、NPUアクセラレーションの詳細、モデルデプロイ手順。i.MX 95のEdge AIソフト構成の肝。ここを入れると「Neutron NPUのソフトウェアフローは？」が深く理解できます。
+  - UG10159 i.MX Graphics User's Guide(グラフィックス周り)  
+    https://www.nxp.com/docs/en/user-guide/UG10159.pdf
+
+  - i.MX 8M Plus Camera and Display Guide  
+    https://www.nxp.com/docs/en/user-guide/UG10168.pdf
+
+  - i.MX Machine Learning User's Guide（eIQ Neutron NPUのソフトウェアスタック理解に最適）  
+  https://www.nxp.com/docs/en/user-guide/UG10166.pdf  
+  → TensorFlow Lite / ONNX Runtime / PyTorch / OpenCVの統合、Neutron Delegateの使い方、NPUアクセラレーションの詳細、モデルデプロイ手順。i.MX 95のEdge AIソフト構成の肝。ここを入れると「Neutron NPUのソフトウェアフローは？」が深く理解できます。
+
+  - i.MX Linux Reference Manual  
+    https://www.nxp.com/docs/en/reference-manual/RM00293.pdf
+
+  - i.MX VPU Application Programming Interface Linux Reference Manual (RM00294)  
+    https://www.nxp.com/docs/en/reference-manual/RM00294.pdf
+
 
 - Embedded Linux for i.MX Applications Processors（公式Linuxページ・BSPダウンロード入口）  
 https://www.nxp.com/design/design-center/software/embedded-software/i-mx-software/embedded-linux-for-i-mx-applications-processors:IMXLINUX  
