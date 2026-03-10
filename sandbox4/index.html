@@ -1,0 +1,1747 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="This site is home page of kzrashi.">
+      
+      
+        <meta name="author" content="kzrashi">
+      
+      
+        <link rel="canonical" href="https://kzrashi.github.io/sandbox4/">
+      
+      
+        <link rel="prev" href="../sandbox3/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/animal_chara_computer_azarashi.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+    
+    
+      
+        <title>エンジニアのための Obsidian 知識管理ガイド - kzrashi's Home</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#obsidian" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href=".." title="kzrashi&#39;s Home" class="md-header__button md-logo" aria-label="kzrashi's Home" data-md-component="logo">
+      
+  <img src="../assets/animal_chara_computer_azarashi.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            kzrashi's Home
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              エンジニアのための Obsidian 知識管理ガイド
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/kzrashi/kzrashi.github.io" title="リポジトリへ" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    kzrashi/kzrashi.github.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="kzrashi&#39;s Home" class="md-nav__button md-logo" aria-label="kzrashi's Home" data-md-component="logo">
+      
+  <img src="../assets/animal_chara_computer_azarashi.png" alt="logo">
+
+    </a>
+    kzrashi's Home
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/kzrashi/kzrashi.github.io" title="リポジトリへ" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    kzrashi/kzrashi.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Top Page
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_math1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数学 Ⅰ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_math2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数学Ⅱ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_math3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数学 Ⅲ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_mathB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数学B
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11_mathC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数学C
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12_physics_electric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    物理(電気)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sandbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sandbox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sandbox2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sandbox2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sandbox3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sandbox3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    エンジニアのための Obsidian 知識管理ガイド
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    エンジニアのための Obsidian 知識管理ガイド
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 基本方針
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 推奨フォルダ構成
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 推奨フォルダ構成">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        なぜこの構成か
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. タグ設計
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. タグ設計">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        推奨タグ体系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        タグ運用のコツ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. テンプレート
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. テンプレート">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 学習ノート（概念）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 トラブルシュート
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-adr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 設計判断（ADR風）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-mocmap-of-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. MOC（Map of Content）の作り方
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. MOC（Map of Content）の作り方">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#moc-yoctomd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        例: MOC-Yocto.md
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moc-reactmd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        例: MOC-React.md
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 推奨プラグイン
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. 推奨プラグイン">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dataview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dataview の活用例
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 日常の運用フロー
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 日常の運用フロー">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#510" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        日次（5〜10分）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1530" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        週次（15〜30分）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#301" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        月次（30分〜1時間）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 実践 Tips
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. 実践 Tips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ノートの命名規則
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        リンクの張り方
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yocto-react-typescript" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Yocto / React / TypeScript 横断の例
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gitでのバックアップ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. まとめ
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 基本方針
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 推奨フォルダ構成
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 推奨フォルダ構成">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        なぜこの構成か
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. タグ設計
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. タグ設計">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        推奨タグ体系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        タグ運用のコツ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. テンプレート
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. テンプレート">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 学習ノート（概念）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 トラブルシュート
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-adr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 設計判断（ADR風）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-mocmap-of-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. MOC（Map of Content）の作り方
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. MOC（Map of Content）の作り方">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#moc-yoctomd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        例: MOC-Yocto.md
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moc-reactmd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        例: MOC-React.md
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 推奨プラグイン
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. 推奨プラグイン">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dataview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dataview の活用例
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 日常の運用フロー
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 日常の運用フロー">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#510" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        日次（5〜10分）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1530" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        週次（15〜30分）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#301" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        月次（30分〜1時間）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 実践 Tips
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. 実践 Tips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ノートの命名規則
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        リンクの張り方
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yocto-react-typescript" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Yocto / React / TypeScript 横断の例
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gitでのバックアップ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. まとめ
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="obsidian">エンジニアのための Obsidian 知識管理ガイド<a class="headerlink" href="#obsidian" title="Permanent link">&para;</a></h1>
+<p>Yocto / React / TypeScript などの技術学習を例に、Obsidianで知識を効率よく蓄積・活用するための運用方法とVault構成をまとめる。</p>
+<hr />
+<h2 id="1">1. 基本方針<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<p>Obsidianの強みは <strong>双方向リンク（<code>[[]]</code>）</strong> によるノート間の関係構築にある。フォルダで「置き場所」を決めつつ、リンクとタグで「意味のつながり」を横断的に作るのがコツ。</p>
+<p>運用の3原則：</p>
+<ol>
+<li><strong>書く敷居を下げる</strong> — Inboxにとりあえず放り込み、後で整理する</li>
+<li><strong>1ノート1トピック</strong> — 粒度を小さく保ち、リンクで組み合わせる</li>
+<li><strong>定期的に振り返る</strong> — MOC（Map of Content）で俯瞰し、リンク切れや孤立ノートを回収する</li>
+</ol>
+<hr />
+<h2 id="2">2. 推奨フォルダ構成<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>Vault/
+├── 00-Inbox/              # 未整理メモの一時置き場
+├── 10-Projects/           # 進行中プロジェクト（期限あり）
+│   ├── yocto-custom-distro/
+│   └── react-dashboard-app/
+├── 20-Areas/              # 継続的に管理する領域（期限なし）
+│   ├── Yocto/
+│   ├── React/
+│   ├── TypeScript/
+│   ├── Linux-Kernel/
+│   └── Career/
+├── 30-Resources/          # リファレンス・参照情報
+│   ├── Snippets/
+│   ├── Cheatsheets/
+│   └── Bookmarks/
+├── 40-Archive/            # 完了・非アクティブなノート
+├── 90-Templates/          # テンプレート置き場
+└── 99-Meta/               # MOC・ダッシュボード・運用ルール
+    ├── MOC-Yocto.md
+    ├── MOC-React.md
+    ├── MOC-TypeScript.md
+    └── Dashboard.md
+</code></pre></div>
+<h3 id="_1">なぜこの構成か<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>層</th>
+<th>役割</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>00-Inbox</code></td>
+<td>「考える前に書く」を可能にする安全地帯</td>
+<td>調べ物中のメモ、思いつき</td>
+</tr>
+<tr>
+<td><code>10-Projects</code></td>
+<td>今やっていることをまとめる。終わったら Archive へ</td>
+<td>Yoctoカスタムディストロ構築</td>
+</tr>
+<tr>
+<td><code>20-Areas</code></td>
+<td>技術ドメインごとの永続的な知識ベース</td>
+<td>Yocto, React, TS の学習ノート</td>
+</tr>
+<tr>
+<td><code>30-Resources</code></td>
+<td>繰り返し参照するスニペットやチートシート</td>
+<td>bitbakeコマンド一覧、TSの型ユーティリティ集</td>
+</tr>
+<tr>
+<td><code>99-Meta</code></td>
+<td>全体を俯瞰するMOCやダッシュボード</td>
+<td>各技術のMOCページ</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>この構成は Tiago Forte の <strong>PARA メソッド</strong>（Projects / Areas / Resources / Archives）をベースにしている。番号プレフィックスでサイドバーの並び順を固定できる。</p>
+</blockquote>
+<hr />
+<h2 id="3">3. タグ設計<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>タグはフォルダを横断する「属性」として使う。フォルダ＝置き場所、タグ＝性質という棲み分けが重要。</p>
+<h3 id="_2">推奨タグ体系<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code># ノートの種類（type）
+#type/concept       … 概念・原理の説明
+#type/howto         … 手順・やり方
+#type/troubleshoot  … トラブルシュートの記録
+#type/til           … Today I Learned（小さな発見）
+#type/decision      … 設計判断・意思決定の記録
+#type/snippet       … コードスニペット
+#type/question      … 未解決の疑問
+
+# 学習ステータス
+#status/seed        … 書きかけ・調査中
+#status/growing     … ある程度まとまった
+#status/evergreen   … 十分に成熟したノート
+
+# 技術ドメイン（Areas と対応）
+#domain/yocto
+#domain/react
+#domain/typescript
+#domain/linux
+</code></pre></div>
+<h3 id="_3">タグ運用のコツ<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>タグは <strong>2階層まで</strong> に抑える（<code>#type/howto</code> は OK、<code>#type/howto/advanced</code> は避ける）</li>
+<li>ドメインタグはフォルダと重複するが、<strong>Dataviewクエリやグラフビューで横断検索</strong> するために付けておく価値がある</li>
+<li><code>#status/*</code> を活用して「育てるべきノート」を定期的に洗い出す</li>
+</ul>
+<hr />
+<h2 id="4">4. テンプレート<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<p><code>90-Templates/</code> に以下のテンプレートを用意しておく。Templaterプラグインを使うとさらに自動化できる。</p>
+<h3 id="41">4.1 学習ノート（概念）<a class="headerlink" href="#41" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code>---
+aliases: []
+tags:
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>type/concept
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>status/seed
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>domain/
+<span class="gu">created: {{date:YYYY-MM-DD}}</span>
+<span class="gu">---</span>
+
+<span class="gh"># {{title}}</span>
+
+<span class="gu">## 一言で言うと</span>
+
+（この概念を1〜2文で説明）
+
+<span class="gu">## 詳細</span>
+
+（背景、仕組み、なぜ重要か）
+
+<span class="gu">## コード例 / 具体例</span>
+</code></pre></div>
+（必要に応じて）
+<div class="highlight"><pre><span></span><code>## 関連ノート
+
+- [[]]
+
+## 参考
+
+- [リンク](URL)
+</code></pre></div></p>
+<h3 id="42">4.2 トラブルシュート<a class="headerlink" href="#42" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code>---
+tags:
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>type/troubleshoot
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>status/seed
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>domain/
+<span class="gu">created: {{date:YYYY-MM-DD}}</span>
+<span class="gu">---</span>
+
+<span class="gh"># {{title}}</span>
+
+<span class="gu">## 症状</span>
+
+（何が起きたか）
+
+<span class="gu">## 環境</span>
+
+<span class="k">-</span><span class="w"> </span>OS:
+<span class="k">-</span><span class="w"> </span>バージョン:
+
+<span class="gu">## 原因</span>
+
+（調査して分かったこと）
+
+<span class="gu">## 解決策</span>
+</code></pre></div>
+（コマンドやコード）
+<div class="highlight"><pre><span></span><code>## 教訓
+
+（次回同じ状況になったときのために）
+
+## 関連ノート
+
+- [[]]
+</code></pre></div></p>
+<h3 id="43-adr">4.3 設計判断（ADR風）<a class="headerlink" href="#43-adr" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>---
+tags:
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>type/decision
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>status/growing
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>domain/
+<span class="gu">created: {{date:YYYY-MM-DD}}</span>
+<span class="gu">---</span>
+
+<span class="gh"># {{title}}</span>
+
+<span class="gu">## コンテキスト</span>
+
+（なぜこの判断が必要になったか）
+
+<span class="gu">## 選択肢</span>
+
+| 案 | メリット | デメリット |
+|---|---|---|
+| A |  |  |
+| B |  |  |
+
+<span class="gu">## 決定</span>
+
+（何を選び、なぜそうしたか）
+
+<span class="gu">## 結果・影響</span>
+
+（決定後に分かったこと。後から追記してよい）
+</code></pre></div>
+<hr />
+<h2 id="5-mocmap-of-content">5. MOC（Map of Content）の作り方<a class="headerlink" href="#5-mocmap-of-content" title="Permanent link">&para;</a></h2>
+<p>MOCは特定ドメインの「目次ページ」。ノートが増えてきたら作成する（目安: 10ノート以上）。</p>
+<h3 id="moc-yoctomd">例: <code>MOC-Yocto.md</code><a class="headerlink" href="#moc-yoctomd" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>---
+tags:
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>type/moc
+<span class="gu">  - domain/yocto</span>
+<span class="gu">---</span>
+
+<span class="gh"># Yocto MOC</span>
+
+<span class="gu">## 基礎概念</span>
+<span class="k">-</span><span class="w"> </span>[[Yoctoとは]]
+<span class="k">-</span><span class="w"> </span>[[OpenEmbeddedとの関係]]
+<span class="k">-</span><span class="w"> </span>[[Bitbakeの仕組み]]
+<span class="k">-</span><span class="w"> </span>[[レイヤー構造]]
+
+<span class="gu">## レシピ開発</span>
+<span class="k">-</span><span class="w"> </span>[[bbファイルの書き方]]
+<span class="k">-</span><span class="w"> </span>[[do_fetchからdo_packageまでのタスクフロー]]
+<span class="k">-</span><span class="w"> </span>[[DEPENDS と RDEPENDS の違い]]
+<span class="k">-</span><span class="w"> </span>[[独自パッケージの追加手順]]
+
+<span class="gu">## カスタマイズ</span>
+<span class="k">-</span><span class="w"> </span>[[カスタムディストロの作り方]]
+<span class="k">-</span><span class="w"> </span>[[カスタムイメージの定義]]
+<span class="k">-</span><span class="w"> </span>[[local.confの主要変数]]
+
+<span class="gu">## デバッグ・トラブルシュート</span>
+<span class="k">-</span><span class="w"> </span>[[bitbake -e で変数を確認する]]
+<span class="k">-</span><span class="w"> </span>[[devshellの使い方]]
+<span class="k">-</span><span class="w"> </span>[[パッチが当たらないときの対処]]
+
+<span class="gu">## 未整理・調査中</span>
+<span class="k">-</span><span class="w"> </span>[[Yocto 5.x の変更点]] <span class="ni">#status/seed</span>
+</code></pre></div>
+<h3 id="moc-reactmd">例: <code>MOC-React.md</code><a class="headerlink" href="#moc-reactmd" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>---
+tags:
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>type/moc
+<span class="gu">  - domain/react</span>
+<span class="gu">---</span>
+
+<span class="gh"># React MOC</span>
+
+<span class="gu">## コア概念</span>
+<span class="k">-</span><span class="w"> </span>[[JSXとは]]
+<span class="k">-</span><span class="w"> </span>[[コンポーネントのライフサイクル]]
+<span class="k">-</span><span class="w"> </span>[[useState / useEffect の使い分け]]
+<span class="k">-</span><span class="w"> </span>[[Reactの再レンダリング条件]]
+
+<span class="gu">## パターン・設計</span>
+<span class="k">-</span><span class="w"> </span>[[Container-Presentationalパターン]]
+<span class="k">-</span><span class="w"> </span>[[カスタムフックの設計指針]]
+<span class="k">-</span><span class="w"> </span>[[状態管理の選択肢比較]]
+
+<span class="gu">## エコシステム</span>
+<span class="k">-</span><span class="w"> </span>[[React Router v6 の基本]]
+<span class="k">-</span><span class="w"> </span>[[Vite + React のセットアップ]]
+<span class="k">-</span><span class="w"> </span>[[React Testing Library の書き方]]
+
+<span class="gu">## TypeScript連携</span>
+<span class="k">-</span><span class="w"> </span>[[ReactコンポーネントのProps型定義]]
+<span class="k">-</span><span class="w"> </span>[[ジェネリクスを使ったカスタムフック]]
+→ 詳細は [[MOC-TypeScript]] も参照
+</code></pre></div>
+<p>MOCのポイント：</p>
+<ul>
+<li><strong>手動でキュレーション</strong> する。自動生成だけに頼らない</li>
+<li>セクション分けは「学習者がたどる順序」を意識する</li>
+<li><code>#status/seed</code> のノートも載せておくと「次に調べること」が見える</li>
+</ul>
+<hr />
+<h2 id="6">6. 推奨プラグイン<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>プラグイン</th>
+<th>用途</th>
+<th>優先度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Templater</strong></td>
+<td>テンプレートの自動展開・日付挿入</td>
+<td>★★★</td>
+</tr>
+<tr>
+<td><strong>Dataview</strong></td>
+<td>タグやメタデータでノートを動的に一覧表示</td>
+<td>★★★</td>
+</tr>
+<tr>
+<td><strong>Quick Switcher++</strong></td>
+<td>ノート検索の高速化</td>
+<td>★★★</td>
+</tr>
+<tr>
+<td><strong>Calendar</strong></td>
+<td>Daily Note との連携</td>
+<td>★★☆</td>
+</tr>
+<tr>
+<td><strong>Git</strong></td>
+<td>Vault全体をGitで自動バックアップ</td>
+<td>★★☆</td>
+</tr>
+<tr>
+<td><strong>Excalidraw</strong></td>
+<td>アーキテクチャ図や概念図を描く</td>
+<td>★★☆</td>
+</tr>
+<tr>
+<td><strong>Kanban</strong></td>
+<td>プロジェクトのタスク管理</td>
+<td>★☆☆</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dataview">Dataview の活用例<a class="headerlink" href="#dataview" title="Permanent link">&para;</a></h3>
+<p><code>99-Meta/Dashboard.md</code> に埋め込む：</p>
+<div class="highlight"><pre><span></span><code><span class="gu">## 育てるべきノート（seed → growing へ）</span>
+
+<span class="sb">```dataview</span>
+<span class="s">TABLE created, file.folder AS &quot;場所&quot;</span>
+<span class="s">FROM #status/seed</span>
+<span class="s">SORT created DESC</span>
+<span class="s">LIMIT 20</span>
+<span class="sb">```</span>
+
+<span class="gu">## 最近の TIL</span>
+
+<span class="sb">```dataview</span>
+<span class="s">LIST</span>
+<span class="s">FROM #type/til</span>
+<span class="s">SORT created DESC</span>
+<span class="s">LIMIT 10</span>
+<span class="sb">```</span>
+
+<span class="gu">## Yocto の未解決疑問</span>
+
+<span class="sb">```dataview</span>
+<span class="s">LIST</span>
+<span class="s">FROM #type/question AND #domain/yocto</span>
+<span class="sb">```</span>
+</code></pre></div>
+<hr />
+<h2 id="7">7. 日常の運用フロー<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
+<h3 id="510">日次（5〜10分）<a class="headerlink" href="#510" title="Permanent link">&para;</a></h3>
+<ol>
+<li>学んだことを <code>00-Inbox</code> にメモする（テンプレートを使って素早く）</li>
+<li>余裕があれば1〜2個のInboxノートを適切なフォルダへ移動し、リンクを張る</li>
+</ol>
+<h3 id="1530">週次（15〜30分）<a class="headerlink" href="#1530" title="Permanent link">&para;</a></h3>
+<ol>
+<li><code>00-Inbox</code> を空にする（整理 or 削除）</li>
+<li><code>#status/seed</code> のノートを1つ選んで肉付けし <code>#status/growing</code> へ</li>
+<li>グラフビューを眺めて孤立ノートにリンクを張る</li>
+<li>Dashboard の Dataview を確認する</li>
+</ol>
+<h3 id="301">月次（30分〜1時間）<a class="headerlink" href="#301" title="Permanent link">&para;</a></h3>
+<ol>
+<li>MOCを見直してノートの追加・並べ替え</li>
+<li>完了したプロジェクトを <code>40-Archive</code> へ移動</li>
+<li>タグの乱立がないかチェック（類似タグの統合）</li>
+</ol>
+<hr />
+<h2 id="8-tips">8. 実践 Tips<a class="headerlink" href="#8-tips" title="Permanent link">&para;</a></h2>
+<h3 id="_4">ノートの命名規則<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>日本語OK。検索しやすい名前を優先する</li>
+<li>「〇〇とは」「〇〇の使い方」のように意味が分かるタイトルにする</li>
+<li>ファイル名にプレフィックス番号は不要（フォルダとリンクで管理する）</li>
+</ul>
+<h3 id="_5">リンクの張り方<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>書いている途中で関連トピックが浮かんだら、<strong>存在しなくてもリンクを張る</strong>（<code>[[まだないノート]]</code>）。後から中身を書けばよい</li>
+<li>これが Obsidian 最大の武器。「先にリンクを張り、後でノートを埋める」ことで知識のスケルトンが先にできる</li>
+</ul>
+<h3 id="yocto-react-typescript">Yocto / React / TypeScript 横断の例<a class="headerlink" href="#yocto-react-typescript" title="Permanent link">&para;</a></h3>
+<p>TypeScriptの型システムの知識はReactのProps型定義にも使う。こうした横断的な関係はフォルダでは表現できないが、リンクなら簡単：</p>
+<div class="highlight"><pre><span></span><code>&lt;!-- 20-Areas/TypeScript/ジェネリクスの基本.md の中で --&gt;
+<span class="gu">## React での活用</span>
+<span class="k">-</span><span class="w"> </span>[[ReactコンポーネントのProps型定義]] でジェネリクスを使うパターン
+<span class="k">-</span><span class="w"> </span>[[カスタムフックの型付け]]
+</code></pre></div>
+<p>同様に、Yocto上でReactアプリをビルドするプロジェクトがあれば：</p>
+<div class="highlight"><pre><span></span><code>&lt;!-- 10-Projects/yocto-react-kiosk/ の中で --&gt;
+<span class="k">-</span><span class="w"> </span>Yocto側: [[カスタムイメージの定義]]
+<span class="k">-</span><span class="w"> </span>React側: [[Vite + React のセットアップ]]
+<span class="k">-</span><span class="w"> </span>ビルド統合: [[YoctoレシピからReactアプリをパッケージする方法]]
+</code></pre></div>
+<h3 id="git">Gitでのバックアップ<a class="headerlink" href="#git" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Obsidian Git プラグインで自動コミット（10分間隔など）</li>
+<li><code>.obsidian/workspace.json</code> は <code>.gitignore</code> に入れる（環境依存のため）</li>
+<li>プライベートリポジトリを使うこと</li>
+</ul>
+<hr />
+<h2 id="9">9. まとめ<a class="headerlink" href="#9" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>やること</th>
+<th>効果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PARA構成でフォルダを作る</td>
+<td>ノートの置き場所に迷わない</td>
+</tr>
+<tr>
+<td>テンプレートで型を決める</td>
+<td>記録の敷居が下がり粒度が揃う</td>
+</tr>
+<tr>
+<td>タグで性質を横断的に付ける</td>
+<td>Dataviewで動的な一覧が作れる</td>
+</tr>
+<tr>
+<td>MOCで領域ごとに俯瞰する</td>
+<td>知識の全体像と抜け漏れが見える</td>
+</tr>
+<tr>
+<td>リンクを先に張る</td>
+<td>知識のスケルトンが自然に育つ</td>
+</tr>
+<tr>
+<td>週次で振り返る</td>
+<td>Inboxが溜まらず、ノートが成熟する</td>
+</tr>
+</tbody>
+</table>
+<p>完璧なノートを目指す必要はない。<strong>「書く → リンクする → 育てる」</strong> のサイクルを回し続けることが最も重要。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2021 -  kzrashi All Rights Reserved.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["tabs"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
